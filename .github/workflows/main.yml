@@ -5,13 +5,13 @@ on:
   push:
     branches:
       - stable
-      - dev
+      - develop
     tags:
       - v**
   pull_request:
     branches:
       - stable
-      - dev
+      - develop
 
 jobs:
   misc_tests:
